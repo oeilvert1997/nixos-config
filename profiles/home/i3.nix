@@ -1,0 +1,21 @@
+{
+  self,
+  ...
+}:
+{
+  imports = [
+    "${self}/modules/home/alacritty.nix"
+    "${self}/modules/home/btop.nix"
+    "${self}/modules/home/cmdset.nix"
+    "${self}/modules/home/dunst.nix"
+    "${self}/modules/home/fastfetch.nix"
+    "${self}/modules/home/fcitx5.nix"
+    "${self}/modules/home/firefox.nix"
+    "${self}/modules/home/fontconfig.nix"
+    "${self}/modules/home/i3.nix"
+    "${self}/modules/home/kitty.nix"
+    "${self}/modules/home/neovim.nix"
+    "${self}/modules/home/tmux.nix"
+    "${self}/modules/home/vmware-user.nix"
+  ];
+}
