@@ -1,0 +1,11 @@
+{
+  pkgs,
+  ...
+}:
+{
+  home.packages = with pkgs; [
+    alacritty
+  ];
+
+  programs.alacritty.enable = false;
+}
